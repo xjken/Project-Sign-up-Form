@@ -1,22 +1,41 @@
 body{
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 100vh;
     padding: 0;
-    margin: 0;
-    min-height: 100vh;
+    margin: 0 5vw ;
 }
 
 .c1, .c2, .r1, .r2{
     border: 1px solid red;
-    flex-grow: 1;
 }
 
+
 .c1{
-    /* background-image: url("/Project-Sign-up-Form/image/wen-qiao-ZOgiXBdt6Gk-unsplash.jpg"); */
+    background-image: url("/Project-Sign-up-Form/image/wen-qiao-ZOgiXBdt6Gk-unsplash.jpg");
+    flex-grow: 0;
+    min-width: 35vw;
+}
+.title{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 25%;
+    background-color: rgba(255,255,255,0.2);
+    font-size: 4rem;
 }
 
 .c2{
+    flex-grow: 1;
+
     display: flex;
     flex-direction: column;
+}
+
+.r1 {
+    flex-grow: 1;
+}
+
+.r2{
+    flex-grow: 2;
 }
