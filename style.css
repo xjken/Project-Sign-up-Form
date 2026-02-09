@@ -12,19 +12,19 @@ body{
     flex-direction: row;
     height: 100vh;
     padding: 0;
-    margin: 0 5vw 10px ;
+    margin: 0 15vw 10px ;
 }
 
-.c1, .c2, .r1, .r2{
-    /* border: 1px solid red; */
-}
+/* .c1, .c2, .r1, .r2{
+    border: 1px solid red;
+} */
 
 
 .c1{
     background-image: url("/Project-Sign-up-Form/image/valentin-OMPm8bDhgsI-unsplash.jpg");
     background-size: cover;
     flex-grow: 0;
-    min-width: 35vw;
+    min-width: 28vw;
     position: relative;
 }
 .logo{
@@ -66,12 +66,26 @@ body{
     flex-direction: column;
 }
 
+.r1, .r2{
+    margin: 1rem 2rem;
+}
+.c2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .r1 {
     flex-grow: 1;
     font-size: 24px;
     font-weight: 550;
+    position: relative;
+    top: 17%;
 }
 
 .r2{
     flex-grow: 2;
+}
+
+.form_head{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
