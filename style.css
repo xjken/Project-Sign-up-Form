@@ -106,12 +106,18 @@ label {
 
 input {
   padding: 8px 10px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #e5e7eb;
   border-radius: 4px;
   font-size: 1rem;
 }
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
 
-
+#password:invalid{
+    border: 1px solid red
+}
 
 .form_button{
     padding: 24px;
